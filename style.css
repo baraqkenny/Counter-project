@@ -1,0 +1,97 @@
+/*#7B4B94*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgb(216, 206, 211), rgb(204, 65, 134));
+    align-items: center;
+    justify-content: center;
+}
+
+
+#score{
+   text-align: center;
+   padding-top: 200px ;
+   font-size: 40px;
+   color: crimson;
+    font-size: 70px;
+}
+
+
+.button{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#increment{
+    margin-right: 20px;
+    background-color: white;
+    padding: 7px 10px;
+    color: rgb(33, 170, 90);
+    border-radius: 10px;
+    box-shadow: 10px 4px 4px black;
+    font-size: 17px;
+    transition: 0.5s;
+    
+
+}
+#increment:hover{
+    transform: scale(1.1);
+    background: rgb(13, 194, 13);
+    box-shadow: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: azure;
+
+}
+
+#reset{
+    margin-right: 20px;
+    background-color:white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 4px black;
+    font-size: 17px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    
+
+}
+#reset:hover{
+    transform: scale(1.1);
+    background: black;
+    box-shadow: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: yellow;
+}
+
+#decrement{
+    background-color:white;
+    padding: 7px 14px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 4px black;
+    font-size: 17px;
+    transition: 0.5s;
+    color: red;
+}
+#decrement:hover{
+    transform: scale(1.1);
+    background: red;
+    box-shadow: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+
